@@ -1,0 +1,3 @@
+[submodule "src/NcmSharp"]
+	path = src/NcmSharp
+	url = https://github.com/LeZi9916/NcmSharp.git
