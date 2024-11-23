@@ -15,4 +15,8 @@
     <None Remove="src\NcmSharp\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="src\NcmSharp\NcmSharp.csproj" />
+  </ItemGroup>
+
 </Project>
