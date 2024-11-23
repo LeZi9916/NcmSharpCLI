@@ -55,4 +55,5 @@ MIT license
 
 ## References
 
+- [taurusxin/ncmdump](https://github.com/taurusxin/ncmdump)
 - [Majjcom/ncmpp](https://github.com/Majjcom/ncmpp)
