@@ -43,7 +43,7 @@ namespace NcmSharp.CLI
                     case "-o":
                     case "--output-path":
                         var isValid = false;
-                        _outputPath = Path.Combine(_workingPath, value);
+                        _outputPath = value;
                         try
                         {
                             if (!Directory.Exists(value))
@@ -60,8 +60,8 @@ namespace NcmSharp.CLI
                         }
                         isChecked = true;
                         break;
-                    case "-t":
-                    case "--thread-count":
+                    case "-j":
+                    case "--jobs":
                         if (!int.TryParse(value, out threadCount) || threadCount < 1)
                         {
                             Console.WriteLine("Error: The number of threads must be Int32 and greater than 0");
